@@ -38,9 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
-    #Minhas apps e de terceiros
+    # Apps de terceiros
+    'django_extensions',
     'widget_tweaks',
+    'bootstrapform',
+    # Minhas apps
     'projeto.core',
     'projeto.produto',
     'projeto.estoque',
@@ -125,3 +127,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
+LOGIN_URL = '/admin/login/'
+LOGOUT_REDIRECT_URL = 'core:index'
