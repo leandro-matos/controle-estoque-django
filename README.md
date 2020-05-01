@@ -12,7 +12,7 @@ Controle de estoque
 * Rode as migrações.
 
 ```
-git clone https://github.com/rg3915/estoque.git
+git clone https://github.com/leandro-matos/controle-estoque-django.git
 cd estoque
 python3 -m venv .venv
 source .venv/bin/activate
