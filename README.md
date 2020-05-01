@@ -13,8 +13,8 @@ Controle de estoque
 
 ```
 git clone https://github.com/leandro-matos/controle-estoque-django.git
-cd estoque
-python3 -m venv .venv
+cd controle-estoque-django
+python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python contrib/env_gen.py
