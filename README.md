@@ -1,14 +1,11 @@
-# Estoque
-
 Controle de estoque
-
 
 ## Como rodar o projeto em sua máquina ?
 
 * Clone esse repositório.
 * Crie um virtualenv com Python 3.
 * Ative o virtualenv.
-* Instale as dependências.
+* Instale as dependências necessárias.
 * Rode as migrações.
 
 ```
